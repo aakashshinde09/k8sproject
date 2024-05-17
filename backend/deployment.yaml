@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-app 
-        image: aakashshinde09/demo:mysql2
+        image: aakashshinde09/project:database
         ports:
         - name: java
           containerPort: 8080
