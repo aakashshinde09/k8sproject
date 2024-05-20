@@ -18,6 +18,6 @@ spec:
       - name: backend-app 
         image: aakashshinde09/project:database
         ports:
-        - name: java
-          containerPort: 8080
+        - name: mysql
+          containerPort: 3306
           protocol: TCP 
